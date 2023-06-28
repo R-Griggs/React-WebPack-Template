@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+  width: 80vw;
+  height: 95vh;
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2.5vh;
+}
+
+#board {
+  border: 1px solid darkslateblue;
+  border-radius: 10px;
+  background-color: lightblue;
+  width: 50%;
+  margin: auto;
+  padding: 16px;
+}
+
+.rowButton {
+  margin: 4px;
+  border: 1px solid darkslateblue;
+  border-radius: 3px;
+  color: darkslateblue;
+}
