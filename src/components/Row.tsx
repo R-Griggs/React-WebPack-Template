@@ -28,7 +28,7 @@ const Row: React.FC<RowProps> = ( { rowID, currPlayer, setCurrPlayer }) => {
   const rowButtons: JSX.Element[] = [];
   for(let i = 1; i < 4; i ++) {
     const btnID = `x${i}y${rowID}`
-    const newButton = <button onClick={() => handleClick(btnID)} className="rowButton" id={btnID} key={`${i}${rowID}`}> - </button>;
+    const newButton = <button onClick={() => handleClick(btnID)} className="rowButton" id={btnID} key={`btn${i}${rowID}`}> - </button>;
     rowButtons.push( newButton );
 
   }

@@ -16,6 +16,12 @@ body {
   width: 50%;
   margin: auto;
   padding: 16px;
+  display: none;
+}
+
+.playerInput {
+  display: flex;
+  justify-content: space-around;
 }
 
 .rowButton {
