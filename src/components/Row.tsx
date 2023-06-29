@@ -9,6 +9,7 @@ interface RowProps {
 }
 
 const Row: React.FC<RowProps> = ( { rowID, currPlayer, setCurrPlayer }) => {
+  console.log('Row rendered');
   function handleClick(btnID: string): void {
     const btn = document.getElementById(`${btnID}`);
     if(btn.innerText !== '-') {
