@@ -3,7 +3,10 @@ import React from 'react';
 const App: React.FC  = () => {
   console.log('App loaded');
   return (
-    <h1>App Loaded</h1>
+   <div>
+      <h1>React Template Loaded</h1>
+      <h2>Typescript-Ready and bundled with WebPack</h2>
+   </div>
   );
 };
 
