@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+  width: 80vw;
+  height: 95vh;
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2.5vh;
+}
+
+#board {
+  border: 1px solid darkslateblue;
+  border-radius: 10px;
+  background-color: lightblue;
+  width: 50vw;
+  margin: auto;
+  display: none;
+}
+
+#controlsContainer {
+  width: 50vw;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c c';
+  margin: auto;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkslateblue;
+  border-radius: 3px;
+  padding: 12px;
+  color: darkslateblue;
+}
+
+#player1InfoContainer {
+  grid-area: a;
+}
+
+#player2InfoContainer {
+  grid-area: b;
+}
+
+#startGameContainer {
+  grid-area: c;
+}
+
+#p1Name {
+  display: block;
+}
+
+#p2Name {
+  display: block;
+}
+
+#resetGame {
+  display: none;
+}
+
+.rowButton {
+  margin: 4px;
+  border: 1px solid darkslateblue;
+  border-radius: 3px;
+  color: darkslateblue;
+}
+
+#messageField {
+  display: none;
+}
